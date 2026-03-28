@@ -21,7 +21,7 @@
             "name": "sign",
             "in": "query",
             "required": true,
-            "description": "48星区的ID标识符（例如: aries1, taurus2, gemini3, pisces3）。若用户仅提供生日，Agent 需自行推算出对应星区 ID 再发起调用。",
+            "description": "48星区的ID标识符。🚨【极其重要】如果用户提供的是生日（如7月1日），请绝对不要自行推断星区ID（极易出错）！直接传入生日的格式如 '07-01' 或 '7月1日'，底层 API 会自动且精确地为你进行星区映射计算！",
             "schema": {
               "type": "string"
             }
@@ -44,7 +44,7 @@
             "name": "sign1",
             "in": "query",
             "required": true,
-            "description": "第一个人的48星区ID标识符（如: aries1）。",
+            "description": "第一个人的48星区ID标识符（如同单人测算一样，如果只知道生日，可直接传入如 '07-01' 即可）。",
             "schema": {
               "type": "string"
             }
@@ -53,7 +53,7 @@
             "name": "sign2",
             "in": "query",
             "required": true,
-            "description": "第二个人的48星区ID标识符（如: taurus2）。",
+            "description": "第二个人的48星区ID标识符（如同单人测算一样，如果只知道生日，可直接传入如 '11-02' 即可）。",
             "schema": {
               "type": "string"
             }
