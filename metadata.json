@@ -1,7 +1,7 @@
 {
-  "name": "48-zodiac-cyber-reader",
-  "version": "1.0.0",
-  "description": "48星区赛博星契师：深度性格解析与宿命情感配对工具",
+  "name": "48 Zodiac Cyber Reader",
+  "version": "1.0.2",
+  "description": "Provides fast, secure analysis of 48 Zodiac zones and detailed dual compatibility scores without requiring API keys or local system access. (48星区配对与性格解析专属大模型插件：零越权、无密钥、全安全)",
   "author": "Miaozai Studio",
   "license": "MIT",
   "env": {},

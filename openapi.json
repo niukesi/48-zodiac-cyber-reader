@@ -1,9 +1,9 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "48 Zodiac Personality & Pairing API",
-    "description": "提供 48 星区单人深度性格解析与双人宿命情感配对查询的接口。",
-    "version": "1.0.0"
+    "title": "48 Zodiac Cyber Reader API",
+    "description": "Provides fast, secure analysis of 48 Zodiac zones and detailed dual compatibility scores without requiring API keys or local system access. (48星区配对与性格解析专属大模型插件)",
+    "version": "1.0.2"
   },
   "servers": [
     {
