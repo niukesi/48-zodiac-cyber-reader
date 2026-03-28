@@ -1,7 +1,7 @@
 {
   "name": "48 Zodiac Cyber Reader",
-  "version": "1.0.8",
-  "description": "【48星区测算与配对专属插件：无密钥/高安全】Provides fast, secure analysis of 48 Zodiac zones and detailed dual compatibility scores without API keys.",
+  "version": "1.0.9",
+  "description": "Provides fast, secure analysis of 48 zodiac zones and detailed dual compatibility scores without requiring API keys or local system access. (48星区配对)",
   "author": "Miaozai Studio",
   "license": "MIT",
   "env": {},

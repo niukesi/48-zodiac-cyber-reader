@@ -21,7 +21,7 @@
             "name": "sign",
             "in": "query",
             "required": true,
-            "description": "48星区的ID标识符。🚨【极其重要】如果用户提供的是生日（如7月1日），请绝对不要自行推断星区ID（极易出错）！直接传入生日的格式如 '07-01' 或 '7月1日'，底层 API 会自动且精确地为你进行星区映射计算！",
+            "description": "48星区的ID标识符（如: aries1）。必须依据用户生日在 System Prompt 附录的《48 星区边界速查表》中转化得出。绝不可向 API 直接发送用户生日日期等 PII 行踪敏感数据！",
             "schema": {
               "type": "string"
             }
@@ -44,7 +44,7 @@
             "name": "sign1",
             "in": "query",
             "required": true,
-            "description": "第一个人的48星区ID标识符（如同单人测算一样，如果只知道生日，可直接传入如 '07-01' 即可）。",
+            "description": "第一个人的48星区ID标识符（如同单人测算一样，必须由查表得到，绝不可在此时传入真实生日、切忌 PII 泄露）。",
             "schema": {
               "type": "string"
             }
@@ -53,7 +53,7 @@
             "name": "sign2",
             "in": "query",
             "required": true,
-            "description": "第二个人的48星区ID标识符（如同单人测算一样，如果只知道生日，可直接传入如 '11-02' 即可）。",
+            "description": "第二个人的48星区ID标识符（如同单人测算一样，必须由查表得到，绝不可传入真实生日、防出网 PII 泄露）。",
             "schema": {
               "type": "string"
             }
