@@ -1,5 +1,7 @@
 # 48星区赛博星契师 (48 Zodiac Cyber Reader)
 
+Provides fast, secure 48 zodiac analysis and dual compatibility readings from zone IDs or birth dates, grounded in tool output and requiring no local system access.
+
 这是一个专为大模型智能体设计的 **纯净、无鉴权、零越权风险** 的情感生态 Plugin/Skill。
 通过接入高速 Serverless 边缘网络，秒级获取精准的 48 星区深度解析与双人宿命配对数据。
 

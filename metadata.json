@@ -1,7 +1,7 @@
 {
-  "name": "48 Zodiac Cyber Reader",
-  "version": "1.0.12",
-  "description": "Provides fast, secure analysis of 48 zodiac zones and detailed dual compatibility scores. Accepts either 48-Zodiac IDs or birth-date strings, which are resolved by the API. All user-facing interpretations must be grounded in tool output.",
+  "name": "48-zodiac-cyber-reader",
+  "version": "1.0.13",
+  "description": "Provides fast, secure 48 zodiac analysis and dual compatibility readings from zone IDs or birth dates, grounded in tool output and requiring no local system access.",
   "author": "Miaozai Studio",
   "license": "MIT",
   "env": {},
